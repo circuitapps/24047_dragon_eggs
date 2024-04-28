@@ -5,7 +5,7 @@ In this project we are introducing a simple circuit and code that will allow you
 
 Following is the circuit diagram of the lamp. It is a very simple circuit indeed!
 
-![Dragon eggs lamp circuit](./AtTiny85_dragoneggslamp_24047.png)
+![Dragon eggs lamp circuit](./AtTiny85_dragon_night_lamp_24047.png)
 
 You can access the AtTiny85 software code using the following link. This is a great starting point to create your own LED patterns for the earring!
 
@@ -31,9 +31,9 @@ When #define SPARKLE_EFFECT is commented in:
 
 Inside random_sparkles() function:
 
-on_time_ms = random(<change low ms limit>, <change high ms limit>);  // Random LED ON duration picked between 10 ms and 30 ms
+on_time_ms = random(<b><i>change low ms limit</i></b>, <b><i>change high ms limit</i></b>);  // Random LED ON duration picked between 10 ms and 30 ms
 
-off_time_ms = random(<change low ms limit>, <change high ms limit>);  // Random LED OFF duration picked between 500 ms and 1500 ms
+off_time_ms = random(<b><i>change low ms limit</i></b>, <b><i>change high ms limit</i></b>);  // Random LED OFF duration picked between 500 ms and 1500 ms
 
 If you want to go a step further than just modifying the parameters above, feel free to write your own functions by checking the led_fader() and random_sparkles() functions.
 
